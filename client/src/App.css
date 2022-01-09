@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* .App {
+  text-align: center;
+} */
+
+nav {
+  min-height: 76px;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.carousel {
+  height: 621px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;                
+}
+
+.carousel-item img {
+  height: 621px;
+  object-fit: fill;
+}
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  width: 900px;
+  max-width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.card-body .details {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body .group {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.card-body .person {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.head {
+  margin-left: 5px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.MuiCardHeader-content {
+  display: flex;
+  font-family: 'Russo One', sans-serif !important;
+  justify-content: center;
+}
+
+.MuiFormGroup-row {
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about{
+  height: 621px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+.content-section{
+  float: left;
+  width: 55%;
+}
+
+.image-section{
+  float: right;
+  width: 40%;
+}
+
+.image-section img{
+  width: 90%;
+  height: auto;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social svg {
+  margin-left: 10px;
+  color: #1a0d0d;
+  font-size: 40px;
+  padding: 5px 8px;
+  border: 2px solid black;
+  border-radius: 50%;;
+}
+
+.footer {
+  bottom: 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    height: 353px;
+    overflow: hidden;
+  }
+
+  .carousel-item {
+    width: 100%;
+    height: 100%;                
+  }
+
+  .carousel-item img {
+    height: 353px;
+    object-fit: fill;
+  }
+
+  .card-body {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .card-body .details {
+    min-width: 80%;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
